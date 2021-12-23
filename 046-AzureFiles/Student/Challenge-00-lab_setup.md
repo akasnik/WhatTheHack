@@ -57,6 +57,6 @@ Steps to check connectivity and validate whether DSC has completed the required 
     - net use M: \\vm-hq-fs-1\Share1 /persistent:Yes
 1. Edge browser is deployed on servers for internet access/file downloads.
 
-## Resources
+## Learning resources
 - [How to deploy resources with Bicep and Azure CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli)
 - [Deploy resources with Bicep and Azure PowerShell](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-powershell)

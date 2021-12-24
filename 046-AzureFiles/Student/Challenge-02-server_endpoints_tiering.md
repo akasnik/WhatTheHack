@@ -1,6 +1,6 @@
-# Challenge 1: Setup Azure Files and File Sync Service
+# Challenge 2: Configure Server endpoint and Cloud tiering
 
-[< Previous Challenge](./00-lab_setup.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-02-server_endpoints_tiering.md)
+[< Previous Challenge](./Challenge-01-set_files_and_filesync.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-03-add_branch_file_server.md)
 
 ## Pre-requisites
 Deployment of environment described in Challenge 0 should be completed and validated.

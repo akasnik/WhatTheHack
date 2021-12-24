@@ -1,6 +1,6 @@
-# Challenge 1: Setup Azure Files and File Sync Service
+# Challenge 4: Enable Data Protection - Snapshot or Azure Backup
 
-[< Previous Challenge](./00-lab_setup.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-02-server_endpoints_tiering.md)
+[< Previous Challenge](./Challenge-03-add_branch_file_server.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-05-secure_private_endpoint..md)
 
 ## Pre-requisites
 Deployment of environment described in Challenge 0 should be completed and validated.

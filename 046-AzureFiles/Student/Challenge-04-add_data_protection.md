@@ -1,6 +1,6 @@
 # Challenge 4: Enable Data Protection - Snapshot or Azure Backup
 
-[< Previous Challenge](./Challenge-03-add_branch_file_server.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-05-secure_private_endpoint..md)
+[< Previous Challenge](./Challenge-03-add_branch_file_server.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-05-secure_private_endpoint.md)
 
 ## Pre-requisites
 Deployment of environment described in Challenge 0 should be completed and validated.

@@ -12,7 +12,7 @@ In this hack you will be solving the common challenges that organizations face w
 - Securing access to Azure Files
 
 ## Before you start
-There is environment that you need to deploy before starting with challenges. It will be deployed in series of VMs in Azure with configurations that include Active Directory Domain and File Server(s) so it takes a while to deploy and configure (estimate 30 min). Steps to deploy environment are provided in **Challenge 0**.
+There is environment that you need to deploy before starting with challenges. It will be deployed in series of VMs in Azure with configurations that include Active Directory Domain and File Server(s) so it takes a while to deploy and configure (estimate 30 min). Steps to deploy environment are provided in [**Challenge 0**](Student/Challenge-00-lab_setup.md).
 
 ## Challenges
 1. Challenge 0: **[Deploy lab using template](Student/Challenge-00-lab_setup.md)**

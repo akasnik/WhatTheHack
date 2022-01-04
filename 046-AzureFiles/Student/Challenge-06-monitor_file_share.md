@@ -1,6 +1,6 @@
-# Challenge 3: Add Branch File Server as a new server endpoint
+# Challenge 6: Monitor Azure File share and Azure File Sync
 
-[< Previous Challenge](./Challenge-02-server_endpoints_tiering.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-add_data_protection.md)
+[< Previous Challenge](./Challenge-05-secure_private_endpoint.md) - **[Home](../README.md)**
 
 ## Pre-requisites
 Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated, Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint and Server Endpoint. HQ File server and Azure File share should be synced.

@@ -1,6 +1,6 @@
 # Challenge 5: Secure Azure File Share with Private Endpoint
 
-[< Previous Challenge](./Challenge-04-add_data_protection.md) - **[Home](../README.md)**
+[< Previous Challenge](./Challenge-04-add_data_protection.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-06-monitor_file_share.md)
 
 ## Pre-requisites
 Deployment of environment described in Challenge 0 should be completed and validated.

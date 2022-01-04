@@ -27,6 +27,8 @@ There is environment that you need to deploy before starting with challenges. It
    - Review soft delete feature, manage snapshots, and configure Azure Backup.
 1. Challenge 5: **[Secure Azure File Share with Private Endpoint](Student/Challenge-05-secure_private_endpoint.md)**
    - Configure storage firewall and enable private endpoint for secure access to Azure file share.
+1. Challenge 6: **[Monitor Azure File share and Azure File Sync](Student/Challenge-06-monitor_file_share.md)**
+   - Configure Azure File share and Azure File Sync monitoring
 
 ## Prerequisites
 - Your own Azure subscription with Owner access

@@ -3,10 +3,12 @@
 [< Previous Challenge](./Challenge-02-server_endpoints_tiering.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-add_data_protection.md)
 
 ## Pre-requisites
+
 Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated, Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint and Server Endpoint. HQ File server and Azure File share should be synced.
 
 ## Introduction
-In this challenge you will set up a Branch server to cache files for users in your Branch office location. Branch server will be synced to same Azure File share as HQ server, therefore users in branch office should have access to same files as users in HQ.
+
+In this challenge you will set up a Branch server to cache files for users in your Branch office location. Branch server will be synced to the same Azure File share as HQ server, therefore users in the branch office should have access to same files as users in HQ.
 
 ## Description
 

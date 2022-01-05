@@ -1,6 +1,6 @@
 # Challenge 6: Monitor Azure File share and Azure File Sync
 
-[< Previous Challenge](./Challenge-05-secure_private_endpoint.md) - **[Home](../README.md)**
+[< Previous Challenge](./Challenge-05-secure_private_endpoint.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-07-ad_integration.md)
 
 ## Pre-requisites
 
@@ -30,4 +30,4 @@ At the end of this challenge you should have Azure File share monitored and set 
 
 ## Tips
 
-- Monitoring 
+- Monitoring Azure File share throttling is important when you run applications that use File share. If Azure File share is throttled it may cause low performance of application.

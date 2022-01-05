@@ -1,4 +1,4 @@
-# Challenge 2: Configure Server endpoint and Cloud tiering
+# Challenge 2: Configure Server endpoint and file synchronization
 
 [< Previous Challenge](./Challenge-01-set_files_and_filesync.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-03-add_branch_file_server.md)
 

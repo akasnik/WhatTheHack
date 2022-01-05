@@ -1,6 +1,6 @@
 # Challenge 3: Add Branch File Server as a new server endpoint
 
-[< Previous Challenge](./Challenge-02-server_endpoints_tiering.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-add_data_protection.md)
+[< Previous Challenge](./Challenge-02-server_endpoints.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-04-add_data_protection.md)
 
 ## Pre-requisites
 

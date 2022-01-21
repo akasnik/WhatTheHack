@@ -3,7 +3,8 @@
 [< Previous Challenge](./Challenge-01-set_files_and_filesync.md) - **[Home](../README.md)** - [Next Challenge >](./Challenge-03-add_branch_file_server.md)
 
 ## Pre-requisites
-Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated, Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint.
+- Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated.
+- Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint.
 
 ## Introduction
 In this challenge you will configure HQ File server as Server endpoint and enable synchronization of files to Azure File share.

@@ -4,7 +4,8 @@
 
 ## Pre-requisites
 
-Deployment of environment described in Challenge 0 should be completed and validated. Azure Files deployed in Challenge 1 should be deployed and have some files.
+- Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated.
+- Azure Files deployed in Challenge 1 should be deployed and have some files.
 
 ## Introduction
 

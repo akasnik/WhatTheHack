@@ -18,7 +18,7 @@ Learn more on Azure File Sync and its components by watching this [video](https:
 
 ## Success Criteria
 
-At the end of this challenge you should have Azure File share and Storage Sync Service successfuly deployed. You should also have Cloud Endpoint configured that represents your Azure File share.
+At the end of this challenge you should have Azure File share and Storage Sync Service successfully deployed. You should also have Cloud Endpoint configured that represents your Azure File share.
 
 ## Learning Resources
 

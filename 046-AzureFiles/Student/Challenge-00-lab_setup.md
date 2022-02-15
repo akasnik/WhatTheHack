@@ -4,7 +4,7 @@
 
 ## Description
 
-Environment that will be beployed in this challenge is required before starting with next challenges. It will be deployed in series of VMs in Azure with configurations that include Active Directory Domain and File Server(s) so it takes a while to deploy and configure (estimate 30 min).
+Environment that will be deployed in this challenge is a pre-requisite for next set of challenges. It will be deployed using a series of VMs in Azure with configurations that include Active Directory Domain and File Server(s) so it takes a while to deploy and configure (estimate 30 min).
 
 Environment is deployed by executing deployment of provided Bicep templates. Configurations are done by using provided PowerShell DSC configurations. Templates will deploy the following components across 3 different Azure regions:
 - On-prem (HQ - North Europe and Branch Site - UK South):
@@ -35,8 +35,8 @@ Steps to deploy Azure Files environment:
 1. (Optional) Modify parameter values within ".\bicep\azfiles-lab.parameters.json" file if required.
 1. Initiate template deployment.
     - Switch to the .\bicep\ folder. 
-    - AZ CLI:  az deployment group create -g 'rg-lab-afs' -f .\azfiles-lab.json --parameters .\azfiles-lab.parameters.json
-    - Powershell: New-AzResourceGroupDeployment -Name AzFilesLab -ResourceGroupName 'rg-lab-afs' -TemplateFile .\azfiles-lab.json -TemplateParameterFile .\azfiles-lab.parameters.json
+    - AZ CLI:  az deployment group create -g 'rg-lab-afs' -f .\azfiles-lab.bicep --parameters .\azfiles-lab.parameters.json
+    - Powershell: New-AzResourceGroupDeployment -Name AzFilesLab -ResourceGroupName 'rg-lab-afs' -TemplateFile .\azfiles-lab.bicep -TemplateParameterFile .\azfiles-lab.parameters.json
 1. Type password to be used for all accounts (including domain admin) in your lab environment. Be sure to remember that password as you will need it to log into the environment.
 1. Wait for deployment to finish, it should take around 30 minutes for deployment to finish.
 
@@ -56,6 +56,8 @@ Steps to check connectivity and validate whether DSC has completed the required 
 1. Connect to HQ-Client-1, open elevated command prompt or powershell and run below command to map the file share to a local M: drive on the VM.
     - net use M: \\vm-hq-fs-1\Share1 /persistent:Yes
 1. Edge browser is deployed on servers for internet access/file downloads.
+
+![Portal view of lab environment deployed](../images/2-lab-resources-deployed.png)
 
 ## Learning resources
 - [How to deploy resources with Bicep and Azure CLI](https://docs.microsoft.com/en-us/azure/azure-resource-manager/bicep/deploy-cli)

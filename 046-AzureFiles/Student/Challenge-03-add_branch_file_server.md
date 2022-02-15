@@ -4,7 +4,9 @@
 
 ## Pre-requisites
 
-Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated, Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint and Server Endpoint. HQ File server and Azure File share should be synced.
+- Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated.
+- Azure File share and Storage Sync Service should be deployed and configured with Cloud Endpoint and Server Endpoint.
+- HQ File server and Azure File share should be synced.
 
 ## Introduction
 

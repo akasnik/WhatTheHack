@@ -6,13 +6,13 @@
 Deployment of environment described in [Challenge 0](./Challenge-00-lab_setup.md) should be completed and validated.
 
 ## Introduction
-In this challenge you will create Azure File share, setup and configure Storage Sync Service. At the end of challenge you should have Azure File and Storage Sync service with Cloud endpoint set up. You will create a Server endpoint in the next challenge.
+In this challenge you will create Azure File share, setup and configure Storage Sync Service with your Azure file share as cloud endpoint. This will get your target environment in cloud ready to receive files data. You will create the Server endpoint in the next challenge.
 
 Learn more on Azure File Sync and its components by watching this [video](https://www.youtube.com/watch?v=Zm2w8-TRn-o).
 
 ## Description
 
-1. Create an Azure Storage account and file share
+1. Create an Azure Storage account and file share (e.g. hqfs-share1)
 1. Deploy Azure File Sync service from marketplace (aka Storage Sync Service)
 1. Create a Sync Group with a Cloud Endpoint (Azure File share)
 
@@ -29,4 +29,4 @@ At the end of this challenge you should have Azure File share and Storage Sync S
 ## Tips
 
 - Select 'transaction optimized' tier as it is the most cost effective SKU during initial sync/migration. During production deployment, it is suggested to start with transaction optimized and switch to the correct **[storage tier](https://docs.microsoft.com/azure/storage/files/storage-files-planning#storage-tiers)** - Cool/Hot/Transaction Optimized after reviewing the workload use case, data churn pattern/transaction units, data size and bill.
-- When naming Storage Account that holds Azure File share, note that if in future you would want Azure File share to be domain joined for seamless AD authentication, it should have maximium 15 characters in name.
+- When naming Storage Account that holds Azure File share, note that if in future you would want Azure File share to be domain joined for seamless AD authentication (challenge 07), it should only have max 20 characters in name.
